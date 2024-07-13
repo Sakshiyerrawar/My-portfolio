@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="varshitha.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Varshitha</title>
+</head>
+<body>
+    <div class="header">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Experiences</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Hire me</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <h1>Hello <br> I'm <span>VARSHITHA Periketi</span></h1>
+        <p>I'm a Engineer and Web Developer.</p>
+            <br>
+        <a href="#">View Resume</a>
+        <a href="#">Contact me</a>
+    </div>
+    <div class="images"><!--container for images-->
+       <img src="https://cdn.dribbble.com/users/2131993/screenshots/15628402/media/7bb0d27e44d8c2eff47276ae86bfd6a3.png?compress=1&resize=400x300&vertical=top" alt=""> 
+    </div>
+    <div class="social">
+        <h5>Follow me on:</h5>
+        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+    </div>
+          
+    
+    </div>
+    
+    
+</body>
+</html>
+
+<--!CSS-->
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: rgb(231, 247, 189);
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+nav ul li a{
+    color:black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(152, 219, 250);
+}
+
+.logo{
+    width: 100px;
+    padding: 10px 0 0 20px;
+}
+
+.hero{
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.hero h1{
+    font-size: 50px;
+}
+
+.hero p{
+    line-height: 20px;
+    color: rgb(46, 6, 6);
+}
+
+.hero a{
+    background-color: rgb(84, 145, 214);
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin:30px 0;
+    border-radius: 20px;
+}
+
+span{
+    color:black;
+}
+
+.images{
+    width:45%;
+    height: 50%;
+    position: absolute;
+    bottom: 50%;
+    top:30%;
+    left: 60%;
+    right: 10%;
+}
+
+
+
+
+.social{
+    margin-left: 8%;
+    margin-top: 150px;
+    color:black;
+}
+
+.social a{
+    font-size: 30px;
+    color: black;
+}
+
+.social a:hover{
+    color:blueviolet;
+
+}
